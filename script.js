@@ -260,7 +260,7 @@ function showQuestion() {
         document.getElementById('question').textContent = `${shuffledData[currentIndex].name}?`;
         document.getElementById('answer').value = '';
     } else {
-        document.getElementById('question').textContent = 'Quiz completed!';
+        document.getElementById('question').textContent = 'Quizen er færdig!';
         document.getElementById('new-run').style.display = 'block';
     }
 }
@@ -271,12 +271,12 @@ function submitAnswer() {
 
     if (userAnswer === correctYear) {
         correct++;
-        document.getElementById('feedback').textContent = 'Correct!';
+        document.getElementById('feedback').innerHTML = `${shuffledData[currentIndex].name}?<br><span class="correct">Rigtigt!</span>`;
     } else if (Math.abs(userAnswer - correctYear) <= 5) {
         almostCorrect++;
-        document.getElementById('feedback').textContent = `Næsten korrekt! Det rigtige år er ${correctYear}.`;
+        document.getElementById('feedback').innerHTML = `${shuffledData[currentIndex].name}?<br><span class="almost-correct">Næsten rigtigt! Der rigtige år er ${correctYear}.</span>`;
     } else {
-        document.getElementById('feedback').textContent = `Forkert! Det rigtig år er ${correctYear}.`;
+        document.getElementById('feedback').innerHTML = `${shuffledData[currentIndex].name}?<br><span class="incorrect">Forkert! Det rigtige år er ${correctYear}.</span>`;
     }
 
     answered++;
