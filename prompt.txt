@@ -4,7 +4,7 @@ There shall be two pages in the app.
 
 It should be possible to navigate between the two pages.
 
-Page one will list all the questions and the correct answers. 
+Page one will list all the questions. For each question is shows the correct answer.
 
 They should be sorted according to the yearForSorting Property.
 
