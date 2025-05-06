@@ -7,6 +7,7 @@ General Requirements:
 The application should have two pages: index.html and quiz.html.
 
 Navigation between the two pages should be possible using links. The navigation must be responsive and work on mobile devices.
+For this use the navbar-toggler button and the collapse class for the navigation links.
 
 Use Bootstrap to make the application responsive. Link to these Bootstrap files:
 bootstrap.min.css, bootstrap.bundle.min.js
@@ -38,7 +39,9 @@ The total number of questions answered.
 The number of correct answers.
 Also show the percentage of correctly answered questions.
 Continuously update and display these statistics on the page.
-Include a button to show next question.
+
+Include a button to show next question. When this quiz is over this button should not be shown. Instead show the text "Quiz er færdig".
+
 Include a button to restart the quiz.
 
 Data:
