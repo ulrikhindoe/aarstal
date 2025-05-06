@@ -1,14 +1,14 @@
 Make an application consisting of four files: index.html, quiz.html, script.js and styles.css.
 
-There shall be two pages in the app.
+There shall be two pages in the app, index.html and quiz.html.
 
-It should be possible to navigate between the two pages. The navigation must also be available on a mobilephone.
+It should be possible to navigate between the two pages. The navigation must also be available on a mobilephone. Use links for the navigation.
 
-Page one will list all the questions. For each question is shows the correct answer.
+index.html will list all the questions. For each question is shows the correct answer.
 
 They should be sorted according to the yearForSorting Property.
 
-Page 2 is the Quiz page.
+quiz.html is the Quiz page.
 
 It should present a question and show the Options.
 
