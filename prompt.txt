@@ -1,0 +1,35 @@
+Make an application consisting of three files: index.html, script.js and styles.css.
+
+There shall be two pages in the app.
+
+It should be possible to navigate between the two pages.
+
+Page one will list all the questions and the correct answers. 
+
+They should be sorted according to the yearForSorting Property.
+
+Page 2 is the Quiz page.
+
+It should present a question and show the Options.
+
+When an option is Clicked On it's background Should turn green.
+
+If the answer is wrong, the background should turn light red and the correct answer should be showed with a green background.
+
+When Running a quiz All questions should be presented, but in randomised order.
+
+Keep a tab And how many questions were answered and how many were correct.
+
+Keep updating these statistic and show them on the page.
+
+The order of the options for question should also be shown in a random order.
+
+There should be a button to start over with the quiz.
+
+All the data in aarstal-2.json Should be embedded in the single javascript file.
+
+Make the application Responsive By using Bootstrap.
+
+Please ask me questions about the app if needed!
+
+
