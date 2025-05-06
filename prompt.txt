@@ -27,8 +27,8 @@ Displays a quiz with the following functionality:
 Presents one question at a time with its options.
 
 When an answer is clicked:
-If correct, the background of the answer should turn light green.
-If incorrect, the background of the clicked answer should turn light red, and the correct answer should be highlighted with a green background.
+If correct, the background of the answer should turn green.
+If incorrect, the background of the clicked answer should turn red, and the correct answer should be highlighted with a green background.
 
 All questions should be presented in a randomized order.
 
@@ -39,8 +39,9 @@ The total number of questions answered.
 The number of correct answers.
 Also show the percentage of correctly answered questions.
 Continuously update and display these statistics on the page.
+These statistics should be less prominent on the page.
 
-Include a button to show next question. When this quiz is over this button should not be shown. Instead show the text "Quiz er færdig".
+Include a button to show next question. It should be just under the answers and should not be too wide. When this quiz is over this button should not be shown. Instead show the text "Quiz er færdig".
 
 Include a button to restart the quiz.
 
