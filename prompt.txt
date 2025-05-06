@@ -1,8 +1,8 @@
-Make an application consisting of three files: index.html, script.js and styles.css.
+Make an application consisting of four files: index.html, quiz.html, script.js and styles.css.
 
 There shall be two pages in the app.
 
-It should be possible to navigate between the two pages.
+It should be possible to navigate between the two pages. The navigation must also be available on a mobilephone.
 
 Page one will list all the questions. For each question is shows the correct answer.
 
@@ -12,9 +12,9 @@ Page 2 is the Quiz page.
 
 It should present a question and show the Options.
 
-When an option is Clicked On it's background Should turn green.
+When an answer is Clicked On and if the answer is correct then it's background Should turn light green.
 
-If the answer is wrong, the background should turn light red and the correct answer should be showed with a green background.
+If the answer clicked on is wrong, the background should turn light red and the correct answer should be shown with a green background.
 
 When Running a quiz All questions should be presented, but in randomised order.
 
@@ -30,6 +30,6 @@ All the data in aarstal-2.json Should be embedded in the single javascript file.
 
 Make the application Responsive By using Bootstrap.
 
-Please ask me questions about the app if needed!
+All text shown to the user must be in Danish.
 
 
