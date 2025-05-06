@@ -1,35 +1,65 @@
-Make an application consisting of four files: index.html, quiz.html, script.js and styles.css.
+Application Requirements
 
-There shall be two pages in the app, index.html and quiz.html.
+Create an application consisting of four files: index.html, quiz.html, script.js, and styles.css.
 
-It should be possible to navigate between the two pages. The navigation must also be available on a mobilephone. Use links for the navigation.
+General Requirements:
 
-index.html will list all the questions. For each question is shows the correct answer.
+The application should have two pages: index.html and quiz.html.
 
-They should be sorted according to the yearForSorting Property.
+Navigation between the two pages should be possible using links. The navigation must be responsive and work on mobile devices.
 
-quiz.html is the Quiz page.
-
-It should present a question and show the Options.
-
-When an answer is Clicked On and if the answer is correct then it's background Should turn light green.
-
-If the answer clicked on is wrong, the background should turn light red and the correct answer should be shown with a green background.
-
-When Running a quiz All questions should be presented, but in randomised order.
-
-Keep a tab And how many questions were answered and how many were correct.
-
-Keep updating these statistic and show them on the page.
-
-The order of the options for question should also be shown in a random order.
-
-There should be a button to start over with the quiz.
-
-All the data in aarstal-2.json Should be embedded in the single javascript file.
-
-Make the application Responsive By using Bootstrap.
-
-All text shown to the user must be in Danish.
+Use Bootstrap to make the application responsive. Link to these Bootstrap files:
+bootstrap.min.css, bootstrap.bundle.min.js
 
 
+All text displayed to the user must be in Danish.
+
+Page Details:
+
+index.html:
+Displays a list of all questions.
+For each question, show the correct answer.
+Questions should be sorted by the yearForSorting property.
+
+quiz.html:
+Displays a quiz with the following functionality:
+Presents one question at a time with its options.
+
+When an answer is clicked:
+If correct, the background of the answer should turn light green.
+If incorrect, the background of the clicked answer should turn light red, and the correct answer should be highlighted with a green background.
+
+All questions should be presented in a randomized order.
+
+The options for each question should also be displayed in a random order.
+
+Keep track of:
+The total number of questions answered.
+The number of correct answers.
+Also show the percentage of correctly answered questions.
+Continuously update and display these statistics on the page.
+Include a button to show next question.
+Include a button to restart the quiz.
+
+Data:
+Embed all data from aarstal-2.json directly into the script.js file.
+The JSON structure is as follows:
+[
+    {
+        "question": "When did the Battle of Dybbøl take place?",
+        "options": [
+            {"option": "17 January 1888", "correct": false},
+            {"option": "18 April 1864", "correct": true}
+        ],
+        "yearForSorting": 1864
+    },
+    {
+        "question": "When did the Danes start resisting the German occupation?",
+        "options": [
+            {"option": "1945", "correct": false},
+            {"option": "1940", "correct": false},
+            {"option": "1942", "correct": true}
+        ],
+        "yearForSorting": 1942
+    }
+]
